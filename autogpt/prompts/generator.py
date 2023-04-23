@@ -150,6 +150,7 @@ class PromptGenerator:
             "Performance Evaluation:\n"
             f"{self._generate_numbered_list(self.performance_evaluation)}\n\n"
             "You should only respond in JSON format as described below \nResponse"
-            f" Format: \n{formatted_response_format} \nEnsure the response can be"
+            # f" Format: \n{formatted_response_format} \nEnsure the response can be"
+            f" Format: \n{formatted_response_format} \nWrite in Japanese.\n Ensure the response can be"
             "parsed by Python json.loads"
         )
